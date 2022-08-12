@@ -3,7 +3,7 @@
 
 .navbar {
   background: $mainBlack;
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
   display: grid;
   grid-template-columns: auto 1fr;
   margin-bottom: 2rem;
@@ -24,6 +24,10 @@
      &:hover {
         color: $mainGreen;
      }
+}
+
+.navbar img {
+  width: 9rem;
 }
 
 .active {
