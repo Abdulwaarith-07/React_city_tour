@@ -1,4 +1,3 @@
-// @import '../../index.scss';
 
 .tourlist {
   width: 70vw;
@@ -11,7 +10,7 @@
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
-    // grid-template-columns: 1fr 1fr;
+    
     
   }
 }
@@ -20,19 +19,8 @@
   .tourlist {
     display: grid;
     grid-gap: 1.5rem;
-    // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-template-columns: 1fr 1fr;
     width: 80vw;
   }
 }
-
-// @media screen and (min-width:760px) {
-//   .tourlist {
-//     display: grid;
-//     grid-gap: 1.5rem;
-//     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-//     // grid-template-columns: 1fr 1fr;
-//   }
-// }
-
 

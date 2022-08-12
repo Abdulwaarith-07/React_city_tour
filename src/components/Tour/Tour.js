@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Tour_lists from "../Tour_lists/Tour_lists";
 import "./Tour.scss";
 import { tourData } from "../tourData";
-// import Tour_list from "../Tour_lists/Tour_lists";
+
 
 class Tour extends Component {
   state = {
@@ -25,7 +25,7 @@ class Tour extends Component {
           // eslint-disable-next-line
           return <Tour_lists key={tour_.id} tour={tour_} removeTour= {this.removeTour} />;
         })}
-        {/* <Tour_lists /> */}
+        
       </section>
     );
   }
